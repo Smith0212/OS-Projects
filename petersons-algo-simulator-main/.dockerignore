@@ -1,0 +1,5 @@
+node_modules/
+.gitignore
+Readme.md
+os2.tar
+Dockerfile

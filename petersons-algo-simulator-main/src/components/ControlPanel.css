@@ -1,0 +1,33 @@
+.control-panel {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #000;
+  background-color: #7FDBDA;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #2980b9;
+  transform: translateY(2px);
+}
+
+button:hover {
+  background-color: #2ecc71;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  transform: translateY(-2px);
+}
